@@ -4,7 +4,9 @@
 
 SecureMeBuddy is a web app designed to help people quickly check whether something online is safe or not.
 
-Note: Some implementation details are intentionally kept private because this project is still evolving and includes backend logic and security-related workflows that are not part of the public showcase.
+It provides simple tools to analyze suspicious links, phone numbers, and emails without requiring technical knowledge.
+
+> Note: This repository is a public-facing showcase. Some implementation details are intentionally kept private as the project includes backend logic and security-focused workflows that are still evolving.
 
 It gives users simple tools to analyze suspicious links, phone numbers, emails, and messages without needing technical knowledge.
 
@@ -16,6 +18,22 @@ https://securemebuddy.com
 - Analyze phone numbers and emails
 - Help identify scam patterns and suspicious activity
 - Provide simple, easy-to-understand safety feedback
+
+## Admin Dashboard
+
+A centralized operations console for monitoring platform activity, scan results, and system health.
+
+### Operations Overview
+<img src="https://github.com/user-attachments/assets/a696743f-c580-4707-a067-ead51d85fe98" width="100%" />
+
+### Intelligence Center
+<img src="https://github.com/user-attachments/assets/731840aa-1097-4c34-a9ea-bd04cde0f3c0" width="100%" />
+
+### Signals & Activity
+<img src="https://github.com/user-attachments/assets/38e9fb63-a2c9-490c-b170-706ea2bfce86" width="100%" />
+
+### Change Log
+<img src="https://github.com/user-attachments/assets/d43f03c8-886d-4956-a104-df72534a908b" width="100%" />
 
 ## Why I built this
 Scams are getting more convincing, and most tools are either too technical or too hidden.
