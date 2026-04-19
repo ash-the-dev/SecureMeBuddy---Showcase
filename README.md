@@ -51,6 +51,36 @@ Planned improvements include:
 - Structuring backend services for real-time data processing
 - Building with scalability in mind from early stages
 
+## Architecture Overview
+
+```mermaid
+flowchart TD
+    A[User] --> B[SecureMeBuddy Frontend]
+    B --> C[URL Checker]
+    B --> D[Email Checker]
+    B --> E[Phone Checker]
+    B --> F[Threat Reports]
+    B --> G[Safety Center]
+
+    C --> H[SecureMeBuddy API Layer]
+    D --> H
+    E --> H
+    F --> H
+
+    H --> I[Supabase Edge Functions]
+    I --> J[Supabase Database]
+
+    I --> K[External Threat Intelligence APIs]
+    K --> I
+
+    J --> L[Scans]
+    J --> M[Change Logs]
+    J --> N[Reports / Alerts]
+
+    H --> O[Risk Results Returned to Frontend]
+    O --> B
+This project is actively being developed and expanded.
+
 ---
 
-This project is actively being developed and expanded.
+
