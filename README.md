@@ -1,6 +1,6 @@
 # SecureMeBuddy - Showcase
+> Simple tools for spotting scams and staying safe online.
 
-# SecureMeBuddy
 
 SecureMeBuddy is a web app designed to help people quickly check whether something online is safe or not.
 
