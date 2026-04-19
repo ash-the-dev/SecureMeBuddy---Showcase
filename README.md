@@ -56,13 +56,14 @@ Planned improvements include:
 ```mermaid
 flowchart TD
     A[User] --> B[SecureMeBuddy Frontend]
+
     B --> C[URL Checker]
     B --> D[Email Checker]
     B --> E[Phone Checker]
     B --> F[Threat Reports]
     B --> G[Safety Center]
 
-    C --> H[SecureMeBuddy API Layer]
+    C --> H[API Layer]
     D --> H
     E --> H
     F --> H
@@ -70,17 +71,12 @@ flowchart TD
     H --> I[Supabase Edge Functions]
     I --> J[Supabase Database]
 
-    I --> K[External Threat Intelligence APIs]
+    I --> K[Threat Intelligence APIs]
     K --> I
 
     J --> L[Scans]
     J --> M[Change Logs]
     J --> N[Reports / Alerts]
 
-    H --> O[Risk Results Returned to Frontend]
+    H --> O[Results]
     O --> B
-This project is actively being developed and expanded.
-
----
-
-
